@@ -1,0 +1,142 @@
+.pickUpMain-page {
+    position: relative;
+    padding-top: 6rem;
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+
+}
+
+.pickUpTopic h2 {
+    font-size: 2rem;
+
+    font-family: var(--H1-H5-FONT);
+}
+
+.pickUp-details {
+    background: hsla(0, 0%, 55%, 0.636);
+    /* background: hsla(0, 0%, 55%, 0.638); */
+    width: 80%;
+
+
+    /*   border-top-right-radius: .7em;
+    border-top-left-radius: .7em;
+   
+    border-bottom-left-radius: 1em;
+ */
+    border-radius: 1em;
+    border-bottom-right-radius: 16em;
+}
+
+.pickUp-details summary {
+    background: var(--YELLOW-COLOR);
+    height: 3.6rem;
+    color: var(--WHITE-COLOR);
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    border-radius: 0.3em;
+
+
+}
+
+.pickUp-details summary p {
+    font-size: 2rem;
+    padding-right: 1.5rem;
+
+
+
+}
+
+.pickUp-details div h1 {
+    font-size: 1.6rem;
+}
+
+.pickUp-details summary:hover {
+    background: var(--DARK-SLATE-GRAY);
+    cursor: pointer;
+}
+
+
+.pickUp-details div span a:hover {
+    color: var(--TEXT-COLOR-IN-DM);
+}
+
+.pickUp-details div span a {
+    color: var(--TEXT-COLOR-IN-DM);
+    font-family: var(--H1-H5-FONT);
+}
+
+
+
+.towns {
+    text-align: left;
+    width: 80%;
+    font-size: 1em;
+    color: var(--PRIMARY);
+
+    /* font-family: 'Libre Caslon Display', serif; */
+
+
+}
+
+.towns h1, .pickUp-details div h3 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: var(--H1-H5-FONT);
+}
+
+.pickUp-details div h3 {
+    margin-top: 5px;
+}
+
+/* <<<<<<<<<<<<<<>>>>>>>>>>>> */
+.pickUp-details div p {
+    /* color: var(--LIGHT-GRAY); */
+    margin-bottom: 1rem;
+}
+
+.pickUp-details div p span {
+    color: var(--PRIMARY);
+    font-family: var(--ITALIC-FONT);
+    margin-bottom: 1rem;
+}
+
+
+.pickUp-details div h3 {
+    font-size: 1.75rem;
+    /* color: var(--LIGHT-YELLOW); */
+}
+
+/* <<<<<<<<<<<<<<>>>>>>>>>>>> */
+.pickUp-details div {
+    padding-left: 1.5rem;
+    /* padding-top: 0.6rem; */
+    padding-bottom: 1rem;
+
+
+}
+
+
+
+
+.pickUpTopic {
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+
+
+
+summary:focus {
+    background-color: var(--DARK-SLATE-GRAY);
+    /* Change to the desired background color */
+}

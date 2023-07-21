@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background: #07252d;
+}
+ */
+/* .big-container {
+    max-width: 330px;
+    max-height: 170px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-container {
+   
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.animation-container:hover {
+    width: 330px;
+    height: 170px;
+    cursor: pointer;
+} */
+
+.last-mile {
+    font-family: var(--H1-H5-FONT);
+}
+
+.black {
+    color: hsla(0, 0%, 13%, 0.479);
+}
+
+.best {
+    color: hsla(19, 94%, 51%, 0.74);
+}
+
+
+
+/* .animation {
+    display: flex;
+    gap: .3rem;
+    flex-direction: column;
+    margin-left: 2cqh;
+
+    padding: 2em;
+} */
+
+.light {
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 1rem;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0000001e);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    -moz-animation: animate 5s linear infinite;
+    -webkit-animation: animate 5s linear infinite;
+    -o-animation: animate 5s linear infinite;
+    -ms-animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+        color: var(--GLASS);
+        text-shadow: none;
+    }
+
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+            0 0 20px #03bcf4,
+            0 0 40px #03bcf4,
+            0 0 60px #03bcf4,
+            0 0 80px #03bcf4,
+            0 0 160px #03bcf4;
+    }
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width:576px) {
+    .light {
+        font-size: 1.8em;
+    }
+
+
+}

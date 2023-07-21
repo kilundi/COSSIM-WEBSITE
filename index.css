@@ -1,0 +1,269 @@
+.mainSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+
+
+
+}
+
+.mainSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(cossim/cossim\ wallpaper.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 0;
+}
+
+
+.company-name {
+    position: absolute;
+    color: var(--WHITE-COLOR);
+    margin-left: 6rem;
+    z-index: 1;
+}
+
+.company-name h4 {
+    color: var(--DARK-COLOR);
+    font-weight: 600;
+}
+
+.company-name h1 {
+    font-weight: 700;
+}
+
+span {
+    color: var(--YELLOW-COLOR);
+}
+
+
+
+
+
+
+
+/* ABOUT SECTION HOME PAGE*/
+
+.mainAbout {
+
+    padding: 1em 1em 3em 1em;
+    display: grid;
+    grid-template-columns: 550px 2fr;
+    justify-content: flex-start;
+    gap: .7em;
+    width: 70%;
+    margin-top: 4rem;
+}
+
+.its-Title h2, .partnerTitle h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--SLATE-GRAY);
+}
+
+.its-Title h2::after, .partnerTitle h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: var(--YELLOW-COLOR);
+    margin: 4px 10px;
+}
+
+
+
+.its-Title {
+    width: 70%;
+    margin-top: 5rem;
+}
+
+.about-tittle, .partner-Title, .partnerTitle {
+    width: 70%;
+}
+
+
+
+.about-tittle h2, .partner-Title h2 {
+    font-family: var(--H1-H5-FONT);
+    font-size: 2.0em;
+    text-transform: uppercase;
+
+}
+
+.aboutContent .italic, div {
+    max-width: 500px;
+}
+
+
+.italic {
+    font-size: .9em;
+    padding-bottom: 1em;
+}
+
+.mainAbout div img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainAbout div img {
+    border-radius: 12px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.our-partners {
+
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1.7em;
+    padding: 2em 0 0 2em;
+
+}
+
+.partner-icons {
+    width: 80px;
+    height: 70px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.partner-icons:hover {
+    width: 90px;
+    height: 80px;
+    transition: .3s;
+}
+
+.image-hover {
+    width: 100px;
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    background-color: var(--RED);
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+}
+
+
+
+.aboutButton {
+    background: var(--YELLOW-COLOR);
+    color: var(--WHITE-COLOR);
+    padding: .6em 1.8em .6em 1.8em;
+    border-radius: 50px;
+    border: none;
+    margin-top: .7em;
+    cursor: pointer;
+
+}
+
+/* MAIN PAGE END */
+
+
+/* BREAKPOINTS */
+
+@media screen and (max-width:576px) {
+    .our-partners {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+
+    }
+
+    .mainAbout {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mainAbout div img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:800px) {
+    .mainAbout {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mainAbout div img {
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+    .aboutContent {
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+    .mainAbout {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 3rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mainAbout div img {
+        max-width: 450px;
+        max-height: 450px;
+    }
+
+    .aboutContent {
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    .mainAbout {
+        padding: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 3rem;
+
+    }
+
+    .aboutContent {
+        max-width: 320px;
+    }
+}

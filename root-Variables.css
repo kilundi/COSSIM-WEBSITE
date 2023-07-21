@@ -1,0 +1,128 @@
+:root {
+    /* DEFAULT */
+    --PRIMARY: #161922;
+    --PRIMARY1: #333333;
+    --SECONDARY1: #f5f5f5;
+    --SECONDARY: #dadada;
+
+    /* THEMES */
+    .DARK-THEME {
+        --PRIMARY: #f5f5f5;
+        --SECONDARY: #0c192c;
+    }
+
+    --BLUE1:#FF5500;
+    --BLUE2:#ff5500d3;
+
+
+    --GREEN1: #00ff55;
+
+
+    --YELLOW-COLOR: rgb(247, 88, 14);
+
+    --DARK-MODE1:#191d28;
+    --DARK-MODE-CARD:#161922;
+
+    --DARK-MODE: #212121;
+    --LIGHT-MODE: #fff;
+    --TEXT-COLOR-IN-DM: #f5f5f5;
+    /* <<<<<>>>>>> <<<<<<>>>>>>  <<<<<<<>>>>>>> */
+    --GRAY-GLASS:hsla(0, 0%, 55%, 0.178);
+    --HEADER-COLOR: whitesmoke;
+    --GRAY-COLOR: #3f4244;
+
+    --WHITE-COLOR: #fff;
+    --GLASS: rgba(255, 255, 255, 0.1);
+    --GLASS-BORDER: 2px solid rgba(255, 255, 255, 0.2);
+    --HOVER-COLOR: hsla(197, 100%, 51%, 1);
+    --DARK-COLOR: #000;
+    /* <<<<<>>>>>> <<<<<<>>>>>>  <<<<<<<>>>>>>> */
+
+    /* <<<<<<<   DARK COLORS   >>>>>>>> */
+    --PUREBLACK: #000000;
+    --VERYDARKGRAY: #111111;
+    --DARKGRAY: #333333;
+    --CHARCOAL: #444444;
+    --DEEP-BLUE-GRAY: #2c3e50;
+    --MIDNIGHT-BLUE: #191970;
+    --SLATE-GRAY: #708090;
+    --DARK-SLATE-GRAY: #2f4f4f;
+    --DARK-NAVY: #000080;
+    --DIM-GRAY: #696969;
+    --DEEP-MIDNIGHT-BLUE: #0c192c;
+    --COOL-COLOR:#aaaaaa;
+    /* <<<<<>>>>>> <<<<<<>>>>>>  <<<<<<<>>>>>>> */
+
+    /* COLOR FOR LATTERS IN DARK MODE */
+    --LIGHT-GRAY: #cccccc;
+    --LIGHT-BLUE: #aed4ff;
+    --LIGHT-GREEN: #9effb8;
+    --LIGHT-PURPLE: #dabdff;
+    --LIGHT-YELLOW: #fff4a3;
+    /* <<<<<>>>>>> <<<<<<>>>>>>  <<<<<<<>>>>>>> */
+
+
+    /* <<<<<<<   WHITE COLORS   >>>>>>>> */
+    --WHITE: #ffffff;
+    --SNOW: #fffafa;
+    --HONEYDEW: #f0fff0;
+    --MINT-CREAM: #f5fffa;
+    --AZURE: #f0ffff;
+    --ALICE-BLUE: #f0f8ff;
+    --GHOST-WHITE: #f8f8ff;
+    --WHITE-SMOKE: #f5f5f5;
+    --SEASHELL: #fff5ee;
+    --BEIGE: #f5f5dc;
+    --OLD-LACE: #fdf5e6;
+    --FLORAL-WHITE: #fffaf0;
+    --IVORY: #fffff0;
+    --ANTIQUE-WHITE: #faebd7;
+    --LINEN: #faf0e6;
+    --LAVENDER-BLUSH: #fff0f5;
+    --MISTY-ROSE: #ffe4e1;
+    /* <<<<<>>>>>> <<<<<<>>>>>>  <<<<<<<>>>>>>> */
+    --LIGHT: hsl(209, 16%, 29%);
+    --DARK-THEME1: #0c192c;
+    --DARK-THEME2: #111111;
+
+
+    /* OTHER COLORS */
+    --BLUE: #007bff;
+    --INDIGO: #6610f2;
+    --PURPLE: #6f42c1;
+    --PINK: #e83e8c;
+    --RED: #dc3545;
+    --ORANGE: #fd7e14;
+    --YELLOW: #ffc107;
+    --GREEN: #28a745;
+    --TEAL: #20c997;
+    --CYAN: #17a2b8;
+    --WHITE: #fff;
+    --GRAY: #6c757d;
+    --GRAY-DARK: #343a40;
+    --PRIM: #007bff;
+    --SECO: #6c757d;
+    --SUCCESS: #28a745;
+    --INFO: #17a2b8;
+    --WARNING: #ffc107;
+    --DANGER: #dc3545;
+    --LIGHT: #f8f9fa;
+    --DARK: #343a40;
+
+
+    /* BREAKPOINTS */
+    --BREAKPOINT-XS: 0;
+    --BREAKPOINT-SM: 576px;
+    --BREAKPOINT-MD: 768px;
+    --BREAKPOINT-LG: 992px;
+    --BREAKPOINT-XL: 1200px;
+
+
+    /* FONTS */
+    --H1-H5-FONT:"Lato-Black";
+    --ITALIC-FONT:italic;
+    --BODY-FONT:'Lato', sans-serif;
+
+
+
+}

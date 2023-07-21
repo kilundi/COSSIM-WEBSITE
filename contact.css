@@ -1,0 +1,71 @@
+.contactMain-page {
+
+    min-height: 100vh;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googleMap {
+
+    width: 100%;
+
+}
+
+.contactTopic {
+    margin-bottom: 3rem;
+
+    text-align: center;
+}
+
+.contact-us {
+    width: 80%;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width:576px) {
+    .all-content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:800px) {
+    .all-content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .all-content .address-location {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+    .all-content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .all-content .address-location {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+}
