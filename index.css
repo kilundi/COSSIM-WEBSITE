@@ -27,13 +27,13 @@
     z-index: 0;
 }
 
-
+/* 
 .company-name {
     position: absolute;
     color: var(--WHITE-COLOR);
-    margin-left: 6rem;
+
     z-index: 1;
-}
+} */
 
 /* .company-name h4 {
     color: var(--DARK-COLOR);
