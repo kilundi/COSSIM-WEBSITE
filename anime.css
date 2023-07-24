@@ -95,10 +95,15 @@
 }
 
 /* BREAKPOINTS */
-@media screen and (max-width:576px) {
+@media screen and (max-width:800px) {
     .light {
         font-size: 1.8em;
     }
 
+    .animation {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
 
 }

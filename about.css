@@ -437,7 +437,7 @@
 
 }
 
-@media screen and (min-width:576px) and (max-width:800px) {
+@media screen and (min-width:577px) and (max-width:800px) {
     .fifth {
         width: 100%;
         display: grid;
@@ -505,7 +505,7 @@
 
 }
 
-@media screen and (min-width:800px) and (max-width:1200px) {
+@media screen and (min-width:801px) and (max-width:1200px) {
     .fifth {
         padding: 2rem;
         display: grid;
@@ -548,7 +548,7 @@
 
 }
 
-@media screen and (min-width:1200px) and (max-width:1440px) {
+@media screen and (min-width:1201px) and (max-width:1440px) {
     .fifth {
         padding: 2rem;
         display: flex;
