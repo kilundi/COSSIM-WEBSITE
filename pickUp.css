@@ -89,8 +89,16 @@
 
 }
 
-.towns h1, .pickUp-details div h3 {
+.towns h1 {
     font-size: 2rem;
+}
+
+.pickUp-details div h3 {
+    font-size: 1rem;
+
+}
+
+.towns h1, .pickUp-details div h3 {
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
