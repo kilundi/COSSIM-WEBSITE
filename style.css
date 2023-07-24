@@ -477,7 +477,7 @@ footer .copyright a {
         padding: .5rem 4%;
         margin-right: 7rem;
         border-radius: 10px;
-        background: var(--WHITE-COLOR);
+        background: var(--SECONDARY);
         border-bottom: var(--GLASS-BORDER);
         border-left: var(--GLASS-BORDER);
         backdrop-filter: blur(6px);
@@ -518,7 +518,7 @@ footer .copyright a {
     .navbar a {
         display: block;
         margin: 1.5rem 0;
-        color: var(--DARK-COLOR);
+        color: var(--PRIMARY);
         font-weight: bold;
 
     }
